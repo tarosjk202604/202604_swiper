@@ -1,0 +1,31 @@
+@charset 'utf-8';
+
+:root {
+    --swiper-navigation-sides-offset: -20px;
+    --swiper-navigation-top-offset: 80%;
+    --swiper-pagination-bullet-size: 20px;
+}
+
+.swiper {
+    max-width: 800px;
+    /* おまけ .swiperにすでに設定されている */
+    margin-inline: auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+
+.time-left {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
